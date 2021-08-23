@@ -200,7 +200,7 @@ ul {
   background-size: cover;
 }
 
-.hero-title {
+.hero__title {
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -451,23 +451,23 @@ textarea {
 }
 
 /* Features */
-.features-list {
+.features {
   display: flex;
 }
 
-.features-list p {
+.features__item p {
   margin-top: 10px;
 }
 
-.section-title {
+.features__item {
   margin-right: 30px;
 }
 
-.section-title:last-child {
+.features__item:last-child {
   margin-right: 0;
 }
 
-.section-text {
+.features__text {
   color: var(--secondary-txt-color);
   line-height: 1.71;
 }
@@ -806,7 +806,7 @@ img {
   fill: currentColor;
 }
 
-.section-icon {
+.features__icon {
   display: flex;
   justify-content: center;
   align-items: center;
