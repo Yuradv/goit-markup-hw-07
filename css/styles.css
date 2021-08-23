@@ -60,7 +60,7 @@ ul {
 }
 
 /* logo */
-.logo {
+.page-header__logo {
   color: var(--logo-color-header);
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -69,7 +69,7 @@ ul {
   line-height: 1.19;
 }
 
-.color-span {
+.page-header__span {
   color: var(--accent-color);
 
   font-size: 26px;
@@ -77,28 +77,28 @@ ul {
 }
 
 /* main-nav */
-.main-nav {
+.page-header__nav {
   display: flex;
   align-items: center;
 }
 
 /* site-nav */
-.site-nav {
+.page-header__nav {
   display: flex;
   margin-left: 93px;
 }
 
-.site-nav-item {
+.page-header__item {
   display: flex;
   margin-right: 50px;
   position: relative;
 }
 
-.site-nav-item:last-child {
+.page-header__item:last-child {
   margin-right: 0px;
 }
 
-.site-nav-link {
+.page-header__link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -109,10 +109,10 @@ ul {
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.current {
+.page-header__link--active {
   color: var(--accent-color);
 }
-.current::after {
+.page-header__link--active::after {
   position: absolute;
   bottom: -1px;
   left: 0;
@@ -126,19 +126,19 @@ ul {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.site-nav-link:hover,
-.site-nav-link:focus {
+.page-header__link:hover,
+.page-header__link:focus {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   color: var(--accent-color);
 }
 
-.site-nav-link:hover::after,
-.site-nav-link:focus::after {
+.page-header__link:hover::after,
+.page-header__link:focus::after {
   opacity: 1;
 }
 
 /* Contacts */
-.header-nav-contacts {
+.page-header__contacts {
   display: flex;
 }
 
@@ -148,18 +148,18 @@ ul {
   justify-content: center;
   align-items: center;
 }
-.contacts-nav-item {
+.contacts-nav__item {
   display: block;
   margin-right: 50px;
   justify-content: center;
   align-items: center;
 }
 
-.contacts-nav-item:last-child {
+.contacts-nav__item:last-child {
   margin-right: 0;
 }
 
-.contacts-nav .link {
+.contacts-nav__link {
   display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -174,8 +174,8 @@ ul {
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link:hover,
-.link:focus {
+.contacts-nav__link:hover,
+.contacts-nav__link:focus {
   color: var(--accent-color);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -801,7 +801,7 @@ img {
 }
 /* icons */
 
-.icon-header {
+.contacts-nav__icon {
   margin-right: 10px;
   fill: currentColor;
 }
