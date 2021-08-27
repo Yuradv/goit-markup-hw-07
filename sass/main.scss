@@ -1,35 +1,36 @@
 @import "./base/normalize";
 @import "./utils/variables";
-@import "./base/dropping";
 
 @import "./base/general";
 
-@import "./components.scss/page-header";
+@import "./components/page-header";
 
-@import "./components.scss/contacts-nav";
+@import "./components/nav";
 
-@import "./components.scss/_hero.scss";
+@import "./components/contacts-nav";
 
-@import "./components.scss/modal";
+@import "./components/_hero.scss";
 
-@import "./components.scss/basic-form";
+@import "./components/modal";
 
-@import "./components.scss/features";
+@import "./components/basic-form";
 
-@import "./components.scss/work";
+@import "./components/features";
 
-@import "./components.scss/team";
+@import "./components/work";
 
-@import "./components.scss/clients";
+@import "./components/team";
 
-@import "./components.scss/page-footer";
+@import "./components/clients";
 
-@import "./components.scss/footer-social";
+@import "./components/page-footer";
 
-@import "./components.scss/_footer-subscribe";
+@import "./components/footer-social";
 
-@import "./components.scss/portfolio-filter";
+@import "./components/_footer-subscribe";
 
-@import "./components.scss/portfolio-examples";
+@import "./components/portfolio-filter";
 
-@import "./components.scss/portfolio-card";
+@import "./components/portfolio-examples";
+
+@import "./components/portfolio-card";

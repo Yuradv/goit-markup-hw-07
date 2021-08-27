@@ -2,10 +2,6 @@
   display: flex;
 }
 
-.features__item p {
-  margin-top: 10px;
-}
-
 .features__item {
   margin-right: 30px;
 
@@ -14,9 +10,15 @@
   }
 }
 
+.features__title {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 .features__text {
   color: $secondary-txt-color;
   line-height: 1.71;
+  margin-top: 10px;
 }
 
 .features__icon {

@@ -1,8 +1,4 @@
 .work {
-  padding-top: 0;
-}
-
-.work__list {
   margin-top: 50px;
   display: flex;
 }
@@ -14,13 +10,6 @@
   &:last-child {
     margin-right: 0;
   }
-}
-
-.work__title {
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  font-weight: 700;
 }
 
 img {

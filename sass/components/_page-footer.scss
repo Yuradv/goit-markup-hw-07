@@ -15,16 +15,16 @@
   line-height: 1.19;
 }
 
-.page-footer__adress {
+.adress {
   font-style: normal;
 }
-.page-footer__text {
+.adress__text {
   color: $primary-white-color;
   line-height: 1.71;
   margin-bottom: 9px;
 }
 
-.page-footer__item {
+.adress__item {
   display: block;
   margin-bottom: 9px;
 
@@ -33,7 +33,7 @@
   }
 }
 
-.page-footer__link {
+.adress__link {
   color: $secondary-txt-color;
   font-style: normal;
   font-weight: 500;

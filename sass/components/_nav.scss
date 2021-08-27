@@ -1,36 +1,9 @@
-.page-header {
-  border-bottom: 1px solid #ececec;
-}
-
-.page-header__logo {
-  color: $logo-color-header;
-  font-family: $secondary-font;
-  font-weight: 700;
-
-  font-size: 26px;
-  line-height: 1.19;
-}
-
-.page-header__span,
-.page-footer__span {
-  color: $accent-color;
-
-  font-size: 26px;
-  line-height: 1.19;
-}
-
-.page-header__nav {
-  display: flex;
-  align-items: center;
-}
-
-/* site-nav */
-.page-header__nav {
+.nav {
   display: flex;
   margin-left: 93px;
 }
 
-.page-header__item {
+.nav__item {
   display: flex;
   margin-right: 50px;
   position: relative;
@@ -40,7 +13,7 @@
   }
 }
 
-.page-header__link {
+.nav__link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -57,11 +30,11 @@
   }
 }
 
-.page-header__link--active {
+.nav__link--active {
   color: $accent-color;
 }
 
-.page-header__link--active::after {
+.nav__link--active::after {
   position: absolute;
   bottom: -1px;
   left: 0;
@@ -75,8 +48,8 @@
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.page-header__link:hover::after,
-.page-header__link:focus::after {
+.nav__link:hover::after,
+.nav__link:focus::after {
   opacity: 1;
 }
 
